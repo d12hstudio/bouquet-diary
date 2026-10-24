@@ -1,0 +1,11 @@
+:root{--ink:#2b2622;--sub:#6b625a;--bg:#fbf8f3;--line:#2b2622;--mark:#a8473a;--draft:#fff1d6}
+@media (prefers-color-scheme:dark){:root{--ink:#eee8e0;--sub:#b3aaa0;--bg:#1a1714;--line:#eee8e0;--mark:#e58f80;--draft:#3a3020}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 -apple-system,"Apple SD Gothic Neo",system-ui,sans-serif}
+main{max-width:640px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:24px;border-bottom:2px solid var(--line);padding-bottom:8px}
+h2{font-size:18px;margin-top:32px}
+a{color:var(--mark)}
+.note{color:var(--sub);font-size:14px}
+.draft{background:var(--draft);padding:8px 12px;font-size:14px}
+ol.s{padding-left:1.4em}
+li{margin:6px 0}
